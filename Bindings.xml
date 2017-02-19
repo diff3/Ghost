@@ -1,0 +1,80 @@
+<Bindings>
+	<Binding name="Open/Hide" runOnUp="true" header="GHOST">
+		ghostShowFrame();
+	</Binding>
+	<Binding name="ghostButton1" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton1"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton2" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton2"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton3" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton3"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton4" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton4"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton5" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton5"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton6" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton6"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton7" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton7"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton8" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton8"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton9" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton9"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton10" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton10"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton11" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton11"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton12" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton12"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton13" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton13"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton14" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton14"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton15" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton15"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton16" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton16"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton17" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton17"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton18" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton18"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton19" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton19"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton20" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton20"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton21" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton21"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton22" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton22"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton23" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton23"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton24" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton24"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+	<Binding name="ghostButton25" runonUp="true">
+		if(keystate=="down") then local button = getglobal("ghostButton25"); UseAction(button:GetID(), 0, onSelf); end
+	</Binding>
+</Bindings>
