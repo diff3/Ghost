@@ -21,14 +21,14 @@ Tugore.
 
 Command list:
 
-/ghost lock [ button | frame]
+/ghost lock [ button | frame ]
   - locks frame or button so you cant move around them
   - default locked
 
 /ghost reload
   - reload interface, equal to /console reloadui
 
-/ghost reset [ lock | scale | text]
+/ghost reset [ lock | scale | text ]
   - reset lock or scale to default value
   - lock default is true
   - scale default is 1
