@@ -56,6 +56,25 @@ function ghostCreateButton()
     end
     newRow = true;
   end
+
+  -- The title box. I rather like this.
+  local title = CreateFrame("Frame", "GhostGuideText", Ghost )
+  title:SetFrameStrata("BACKGROUND")
+  title:SetWidth(36)
+  title:SetHeight(36)
+  title:SetPoint("CENTER", "ghostButton13", "TOP", 0, -18)
+
+  local t = title:CreateTexture(nil,"BACKGROUND")
+  t:SetTexture("Interface\\DialogFrame\\UI-DialogBox-Background")
+  t:SetAllPoints(title)
+  t:SetVertexColor(1, 1, 1, .5)
+  title.texture = t
+
+  title.title = title:CreateFontString(nil, "OVERLAY")
+  title.title:SetFont(STANDARD_TEXT_FONT, 12, "OUTLINE")
+  title.title:SetTextColor(1, 1, 0, .8)
+  title.title:SetPoint("TOP", title, "TOP", 0, -1)
+  title.title:SetText("Ghost")
 end
 
 -- Show frame under mouse pointer
@@ -70,17 +89,18 @@ function ghostShowFrame()
     Ghost:SetScale(frameScale);
     Ghost:SetPoint("CENTER",WorldFrame,"BOTTOMLEFT", ( mouseX / frameScale) / wowScale, (mouseY / frameScale) / wowScale );
 
-  -- Check if we need to show/ hide binding text
-  -- if statement are always false at the moment, unsure why.
-    
-  --  if ghostText['showBindingText'] == true then
-      ghostButtonText();
-  --  else
-  --    ghostButtonTextHide();
-  --  end
+    -- Check if we need to show/ hide binding text
 
+    if ghost['showBindingText'] == true then
+      ghostButtonText();
+    else
+      ghostButtonTextHide();
+    end
+
+    GhostGuideText:Show();
     Ghost:Show();
   else
+    GhostGuideText:Hide();
     Ghost:Hide();
   end
 end
@@ -103,6 +123,8 @@ function ghostButtonText()
     getglobal(gText):Show();
   end
 end
+
+-- remove button text
 
 function ghostButtonTextHide()
   for i = 1, 25, 1 do

@@ -1,5 +1,5 @@
 <Bindings>
-	<Binding name="Open/Hide" runOnUp="true" header="GHOST">
+	<Binding name="ghostOpenHide" runOnUp="true" header="GHOST">
 		ghostShowFrame();
 	</Binding>
 	<Binding name="ghostButton1" runonUp="true">

@@ -1,4 +1,4 @@
-Ghost v1.0
+Ghost v1.1
 ----------
 
 Then I first played World of Warcraft back in 2005, I wrote an
@@ -28,10 +28,11 @@ Command list:
 /ghost reload
   - reload interface, equal to /console reloadui
 
-/ghost reset [ lock | scale ]
+/ghost reset [ lock | scale | text]
   - reset lock or scale to default value
   - lock default is true
   - scale default is 1
+  - text default is visible
 
 /ghost scale [ 0 - 2.5 ]
   - set the scale to a number between 0 and 2.5

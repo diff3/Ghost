@@ -1,1 +1,2 @@
 170219 - First release
+170220 - Fixed some minor bugs, and added a check if any key is bound to open Ghost frame

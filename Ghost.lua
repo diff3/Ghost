@@ -1,5 +1,3 @@
--- städa koden
-
 function ghostOnEvent()
   ChatFrame1:AddMessage( ghostText['loaded'] , 1.0, 1.0, 0.0, 1.0);
 
@@ -10,13 +8,13 @@ function ghostOnEvent()
     if cmd == "reload" then
       ReloadUI();
     elseif cmd == ghostText['scale'] then
-      slashCommandScale( param );
+      ghostSlashCommandScale( param );
     elseif cmd == ghostText['reset'] then
-      slashCommandReset( param );
+      ghostSlashCommandReset( param );
     elseif cmd == ghostText['lock'] then
-      slashCommandLock( param );
-    elseif cmd == "text" then
-      slashCommandText( param );
+      ghostSlashCommandLock( param );
+    elseif cmd == ghostText['text'] then
+      ghostSlashCommandText( param );
     else
       ChatFrame1:AddMessage( ghostText['slashHelp'] , 1.0, 1.0, 0.0, 1.0);
     end
@@ -54,7 +52,7 @@ end
 
 -- Slash lock command
 
-function slashCommandLock( param )
+function ghostSlashCommandLock( param )
   cmdSub, paramSub = ghostCommandFormat( param )
 
   -- Lock buttons
@@ -82,7 +80,7 @@ end
 
 -- Slash reset command
 
-function slashCommandReset( param )
+function ghostSlashCommandReset( param )
   cmdSub, paramSub = ghostCommandFormat( param )
 
   if cmdSub == "lock" then
@@ -91,9 +89,10 @@ function slashCommandReset( param )
     ghost['lockButton'] = true;
   elseif cmdSub == "scale" then
     ChatFrame1:AddMessage( ghostText['resetScale'] , 1.0, 1.0, 0.0, 1.0);
-    ghost:ClearAllPoints();
-    ghost:SetScale(1);
     ghost['frameScale'] = 1;
+  elseif cmd == "text" then
+    ChatFrame1:AddMessage( ghostText['resetText'] , 1.0, 1.0, 0.0, 1.0);
+    ghost['showBindingText'] = true;
   else
     ChatFrame1:AddMessage( ghostText['resetHelp'] , 1.0, 1.0, 0.0, 1.0);
   end
@@ -102,12 +101,8 @@ end
 
 -- Slash Scale command
 
-function slashCommandScale( param )
-  if param == "" then
-    param = 0;
-  end
-
-  if param == nil then
+function ghostSlashCommandScale( param )
+  if not tonumber(param) or param == nil then
     param = 0;
   end
 
@@ -118,10 +113,7 @@ function slashCommandScale( param )
   end
   if scale > 0 and scale <= 2.5 then
     ChatFrame1:AddMessage( ghostText['setScale'] .. scale, 1.0, 1.0, 0.0, 1.0);
-    local scale = param;
-    ghost:ClearAllPoints();
-    ghost:SetScale(scale);
-    ghost['frameScale'] = scale;
+    ghost['frameScale'] = param;
   else
     ChatFrame1:AddMessage( ghostText['scaleHelp'], 1.0, 1.0, 0.0, 1.0);
   end
@@ -129,7 +121,7 @@ end
 
 -- Slash text command
 
-function slashCommandText( param )
+function ghostSlashCommandText( param )
   if ghost['showBindingText'] == false then
     ghost['showBindingText'] = true;
     ChatFrame1:AddMessage( ghostText['ShowText'] , 1.0, 1.0, 0.0, 1.0);

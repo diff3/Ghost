@@ -20,7 +20,7 @@ if not ghost['showBindingText'] then
   ghost['showBindingText'] = true;
 end
 
--- Small hack to find empty buttons. We want to awoid default buttons on eatch class.
+-- Small hack to find empty buttons. We want to avoid default buttons on eatch class.
 
 if class == "DRUID" then
   ghost["ButtonID"] = {
