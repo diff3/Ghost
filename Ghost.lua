@@ -1,4 +1,4 @@
-function ghostOnEvent()
+function ghostInit()
   ChatFrame1:AddMessage( ghostText['loaded'] , 1.0, 1.0, 0.0, 1.0);
 
   SLASH_Ghost1 = "/ghost";
@@ -131,6 +131,12 @@ function ghostSlashCommandText( param )
   end
 end
 
-local f = CreateFrame("Frame")
-f:RegisterEvent("VARIABLES_LOADED")
-f:SetScript("OnEvent", ghostOnEvent)
+-- Register all events
+
+local frame = CreateFrame("Frame")
+frame:RegisterEvent("VARIABLES_LOADED")
+frame:SetScript("OnEvent", function()
+    if event == "VARIABLES_LOADED" then
+        ghostInit();
+    end
+end)
