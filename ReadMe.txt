@@ -1,6 +1,8 @@
 Ghost v1.1
 ----------
 
+Don't forget to bind a key to "View frame" under Ghost in Key Bindings.
+
 Then I first played World of Warcraft back in 2005, I wrote an
 addon called AutoHideBar. I maintained it until TBC, until I dropped it
 Over the past years I have used Geist, so then I started to play vanilla

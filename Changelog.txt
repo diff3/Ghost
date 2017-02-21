@@ -1,2 +1,3 @@
 170219 - First release
 170220 - Fixed some minor bugs
+170221 - Rewrote event handler
