@@ -1,20 +1,21 @@
 Ghost v1.1
 ----------
 
-Don't forget to bind a key to "View frame" under Ghost in Key Bindings.
+Don't forget to bind a key to "View frame" under Ghost in Key Bindings!
 
 Then I first played World of Warcraft back in 2005, I wrote an
-addon called AutoHideBar. I maintained it until TBC, until I dropped it
+addon called AutoHideBar. I maintained it until TBC. 
 Over the past years I have used Geist, so then I started to play vanilla
-Wow I wanted to use Geist, but it did't work. AutoHideBar felt very old
-so I decided to wrote my own addon based on Geist and AutoHideBar.
+Wow I wanted to use Geist again, but it did't work. AutoHideBar felt very old
+so I decided to write my own addon based on Geist and AutoHideBar.
 
 This addon will create a hidden button bar, which you can show next to
-the mouse cursor. It working just as a actionbar so you only need to
+the mouse cursor. It's working just lika an actionbar so you only need to
 drag your spells to it. You can also add short-cuts to all spells.
 
-I usely add all my buffs and non-combat spells to Ghost, so I can keep
-all icons at a minimum.
+I usely add all my buffs and non-combat spells to Ghost, (teleport/ portals)
+so I can keep all shown icons at a minimum but with easy access to all 
+hidden icons. 
 
 hope you like my addon
 
