@@ -12,10 +12,10 @@ so I decided to write my own addon based on Geist and AutoHideBar.
 Geist (https://mods.curse.com/addons/wow/geist)
 AutoHideBar (https://wow.curseforge.com/projects/project-3301)
 
-This addon will create a hidden button bar, which you can show under 
+This addon will create a hidden button bar, which can be shown under 
 the mouse cursor. It's working just like an actionbar so you only need to
 drag your spells to it. You can also add short-cuts to all spells.
-(you can use short-cut-spells then the bar are hidden)
+(you can use short-cut-spells then the bar is hidden)
 
 I usely add all my buffs and non-combat spells to Ghost, (teleport/ portals/ int buff)
 so I can keep all shown icons to a minimum but with easy access to all hidden spells.
