@@ -1,5 +1,5 @@
 ## Interface: 11200
-## Title: Ghost v1.0
+## Title: Ghost v1.1b
 ## Notes: Creates 25 buttons bar under mouse pointer (hidden). Inspired by Geist and AutoHideBar
 ## Author: Entropy
 ## SavedVariablesPerCharacter: ghost
