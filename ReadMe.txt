@@ -20,6 +20,8 @@ drag your spells to it. You can also add short-cuts to all spells.
 I usely add all my buffs and non-combat spells to Ghost, (teleport/ portals/ int buff)
 so I can keep all shown icons to a minimum but with easy access to all hidden spells.
 
+See images in Wiki section
+
 hope you like my addon
 
 best regards
