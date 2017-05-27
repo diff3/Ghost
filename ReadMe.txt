@@ -28,7 +28,7 @@ Tugore.
 Command list:
 
 /ghost lock [ button | frame ]
-  - locks frame or button so you cant move around them
+  - locks/ unlock frame or button movement
   - default locked
 
 /ghost reload
