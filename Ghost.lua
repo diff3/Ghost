@@ -90,7 +90,7 @@ function ghostSlashCommandReset( param )
   elseif cmdSub == "scale" then
     ChatFrame1:AddMessage( ghostText['resetScale'] , 1.0, 1.0, 0.0, 1.0);
     ghost['frameScale'] = 1;
-  elseif cmd == "text" then
+  elseif cmdSub == "text" then
     ChatFrame1:AddMessage( ghostText['resetText'] , 1.0, 1.0, 0.0, 1.0);
     ghost['showBindingText'] = true;
   else
