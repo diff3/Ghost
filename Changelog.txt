@@ -1,3 +1,4 @@
-170219 - First release
-170220 - Fixed some minor bugs
+170527 - Fixed some typos added some text to readme
 170221 - Rewrote event handler
+170220 - Fixed some minor bugs
+170219 - First release
