@@ -8,6 +8,8 @@ addon called AutoHideBar. I maintained it until TBC.
 Over the past years I have used Geist, so then I started to play vanilla
 Wow I wanted to use Geist again, but it did't work. AutoHideBar felt very old
 so I decided to write my own addon based on Geist and AutoHideBar.
+<a href="https://mods.curse.com/addons/wow/geist">Geist</a>
+<a href="https://wow.curseforge.com/projects/project-3301">AutoHideBar</a>
 
 This addon will create a hidden button bar, which you can show next to
 the mouse cursor. It's working just like an actionbar so you only need to
@@ -32,7 +34,7 @@ Command list:
   - reload interface, equal to /console reloadui
 
 /ghost reset [ lock | scale | text ]
-  - reset lock or scale to default value
+  - reset lock, scale or text to default value
   - lock default is true
   - scale default is 1
   - text default is visible
@@ -41,4 +43,4 @@ Command list:
   - set the scale to a number between 0 and 2.5
 
 /ghost text
-  - turn binding text on the buttons on/ off. Not working at the moment.
+  - turn binding text on the buttons on/ off.
