@@ -1,4 +1,4 @@
-Ghost v1.1
+Ghost v1.1b
 ----------
 
 Don't forget to bind a key to "View frame" under Ghost in Key Bindings!
